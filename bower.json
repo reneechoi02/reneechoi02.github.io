@@ -1,0 +1,21 @@
+{
+  "name": "reneechoi02",
+  "homepage": "https://github.com/reneechoi02/reneechoi02.github.io",
+  "authors": [
+    "reneechoi02 <reneechoi02@gmail.com>"
+  ],
+  "description": "renee' house",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower_package",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
