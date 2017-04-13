@@ -1,0 +1,11 @@
+CACHE MANIFEST
+#需要缓存的文件
+CACHE:
+/css/style.css
+/js/main.js
+#不需要缓存的文件
+NETWORK:
+*
+#无法访问页面
+FALLBACK:
+/404.html
