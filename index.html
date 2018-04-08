@@ -1,40 +1,55 @@
 <!DOCTYPE html>
-<html lang="en" mainfest="demo.appcache">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Renee Choi House</title>
+    <title>Renee之家</title>
     <link rel="stylesheet" href="bower_package/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-<header class="header">
-    <p>Renee Choi</p>
-    <div class="header-line"></div>
-</header>
+    <header>
+        <p class="header-text">Renee之家</p>
+        <!--<p>越努力，越幸运</p>-->
+    </header>
+    <nav class="collapse navbar-collapse">
+        <div class="container">
+            <div class="row">
+                <ul class="nav nav-pills nav-bar">
+                    <li role="presentation" class="nav-title"><a href="#">首页</a></li>
+                    <li role="presentation" class="nav-title"><a href="#">项目</a></li>
+                    <li role="presentation" class="nav-title"><a href="#">关于我</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="main-content col-md-8">
+                    <article class="main-card">
+                        <div class="article-header">
+                            <h2>欢迎来到我的小家</h2>
+                        </div>
+                        <div class="article-content">
+                            <p>很高兴你能到我的小家参观，我相信很多东西都会越来越好的。</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-theme">阅读全文</button>
+                        </div>
+                        <footer class="article-footer"></footer>
+                    </article>
+                    <nav class="pagination" role="navigation"></nav>
+                </div>
 
-<!--<acticle>-->
-    <!--<section>-->
-        <!--<div>Experience</div>-->
-        <!--<div></div>-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<div>Skill</div>-->
-        <!--<div></div>-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<div>Hobbies</div>-->
-        <!--<div></div>-->
-    <!--</section>-->
-    <!--<section>-->
-        <!--<div>Information</div>-->
-        <!--<div></div>-->
-    <!--</section>-->
-<!--</acticle>-->
-<footer>
-    create by Renee Choi@Copy right2017
-</footer>
-<p>My house is building...</p>
+                <aside class="sidebar col-md-4">
+                    <div class="widget">
+                        <div class="widget-header">邮箱</div>
+                        <div class="widget-content">1872686806@qq.com</div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
 </body>
-<script src="bower_package/jquery/dist/jquery.js"></script>
-<script src="js/main.js"></script>
 </html>

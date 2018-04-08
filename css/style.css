@@ -1,18 +1,104 @@
-*{
+*,html{
     margin:0;
     border: 0;
     padding:0;
+    outline:0;
 }
-.header p{
+/*.header p{*/
+    /*text-align: center;*/
+    /*height: 50px;*/
+    /*line-height: 50px;*/
+    /*font-size: 20px;*/
+    /*font-family: "Microsoft YaHei UI";*/
+    /*margin: 0px;*/
+    /*background-color: #393D49;*/
+    /*color:#FFF;*/
+/*}*/
+/*.header-line{*/
+    /*height: 2px;*/
+    /*width: 100%;*/
+    /*background-color: #8a6d3b;*/
+/*}*/
+/*.content-title{*/
+    /*font-size: 20px;*/
+    /*font-weight: bold;*/
+/*}*/
+/*footer{*/
+    /*position: absolute;*/
+    /*bottom:0;*/
+    /*text-align: center;*/
+/*}*/
+html,body{
+    background-color: #ebebeb;
+}
+header{
+    height:200px;
+    width:100%;
+    background-color: #3498db;
     text-align: center;
-    height: 30px;
-    line-height: 30px;
-    font-size: 20px;
-    font-family: "Microsoft YaHei UI";
-    margin: 0px;
 }
-.header-line{
-    height: 2px;
-    width: 100%;
-    background-color: #8a6d3b;
+.header-text{
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 140px;
+}
+nav{
+    line-height: 30px;
+    text-align: center;
+    background-color: #FFF;
+}
+.nav-title a{
+    color:#000;
+}
+.nav-title a:hover,.nav-title a:focus{
+    color:#3498db;
+    background-color: #FFF !important;
+}
+.nav-bar{
+    margin: 0 auto;
+    max-width: 192px;
+}
+.main-card{
+    background-color: #FFF;
+    padding:35px;
+}
+.content{
+    margin-top: 20px;
+}
+.article-content{
+    margin: 20px 0;
+}
+.article-footer{
+    height: 10px;
+    border-bottom:1px solid #ebebeb;
+}
+.widget{
+    background-color: #FFF;
+    padding:21px 30px;
+}
+.widget-header{
+    margin-top: 0;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 21px;
+    position: relative;
+}
+.widget-header:after{
+    content:"";
+    width: 90px;
+    height: 1px;
+    background: #3498db;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+
+.btn-theme,.btn-theme:visited,.btn-theme:focus{
+    background-color: #3498db;
+    color:#FFF;
+}
+.btn-theme:hover,.btn-theme:active{
+    background-color: #286090;
+    color:#FFF;
 }
