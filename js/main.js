@@ -1,12 +1,12 @@
 $(".btn-read-more").click(function(){
-    if($(".btn-read-more")[0].innerText=="阅读全文"){
-        $(".article-content")[0].style.height = "auto";
-        $(".btn-read-more")[0].innerText = "收起";
+    // console.log($(this)[0].innerText);
+    if($(this)[0].innerText=="阅读全文"){
+        $(this).parent().parent().children()[1].style.height = "auto";
+        $(this)[0].innerText = "收起";
     }else{
-        $(".article-content")[0].style.height = "20px";
-        $(".btn-read-more")[0].innerText = "阅读全文";
+        $(this).parent().parent().children()[1].style.height = "20px";
+        $(this)[0].innerText = "阅读全文";
     }
-
 })
 
 $(".nav-title").click(function(){
