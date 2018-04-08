@@ -29,8 +29,8 @@ nav{
 .nav-title a{
     color:#000;
 }
-.nav-title a:hover,.nav-title a:focus{
-    color:#3498db;
+.nav-title a:hover,.nav-title a:focus,.nav-active{
+    color:#3498db !important;;
     background-color: #FFF !important;
 }
 .nav-bar{
@@ -50,6 +50,8 @@ nav{
 }
 .article-content{
     margin: 20px 0;
+    height: 20px;
+    overflow: hidden;
 }
 .article-footer{
     height: 10px;
