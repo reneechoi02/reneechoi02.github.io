@@ -13,8 +13,23 @@ $(".nav-title").click(function(){
     $(".nav-title a").each(function(){
         $(this).removeClass("nav-active");
     })
+    if($(this)[0].innerText.indexOf("首页")>-1){
+        $(".content")[0].style.display = "block";
+        $(".project")[0].style.display = "none";
+        $(".about-me")[0].style.display = "none";
+    }else if($(this)[0].innerText.indexOf("项目")>-1){
+        $(".content")[0].style.display = "none";
+        $(".project")[0].style.display = "block";
+        $(".about-me")[0].style.display = "none";
+    }else if($(this)[0].innerText.indexOf("关于我")>-1){
+        $(".content")[0].style.display = "none";
+        $(".project")[0].style.display = "none";
+        $(".about-me")[0].style.display = "block";
+    }
     $(this).addClass("nav-active");
 })
+
+
 // if(window.localStorage){
 //     alert('This browser supports localStorage');
 // }else{

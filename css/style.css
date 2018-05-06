@@ -5,6 +5,10 @@
     outline:0;
 }
 
+h3{
+    margin:0 auto;
+}
+
 html,body{
     background-color: #ebebeb;
     min-width:360px;
@@ -14,6 +18,10 @@ header{
     width:100%;
     background-color: #3498db;
     text-align: center;
+    background: -webkit-linear-gradient(left, #07dbd2, #3498db); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #07dbd2, #3498db); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #07dbd2, #3498db); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #07dbd2, #3498db); /* 标准的语法 */
 }
 .header-text{
     color: #FFF;
@@ -32,6 +40,7 @@ nav{
 .nav-title a:hover,.nav-title a:focus,.nav-active{
     color:#3498db !important;;
     background-color: #FFF !important;
+    font-weight: bolder;
 }
 .nav-bar{
     margin: 0 auto;
@@ -86,3 +95,212 @@ nav{
     background-color: #286090;
     color:#FFF;
 }
+.project{
+    margin-top: 20px;
+    display: none;
+}
+.project .container{
+    background-color: #FFF;
+    padding: 20px;
+}
+
+.project-item{
+    border:1px solid #C9C5C5;
+    border-radius: 2px;
+    padding:10px;
+}
+.project-pic{
+    width: 250px;
+    height: 250px;
+}
+/*.about-me .container{*/
+    /*background-color: #FFF;*/
+    /*height: 30px*/
+/*}*/
+
+
+.about-me{
+    display: none;
+}
+/*skill*/
+.skill{
+    /*text-align: center;*/
+}
+.skill h3{
+    text-align: center;
+    padding-top: 10px;
+}
+.skill .container{
+    padding: 50px 0;
+}
+
+.skill-icon{
+    font-size: 100px;
+    text-align: center;
+}
+
+.skill-text{
+    float:left;
+    width: 150px;
+}
+
+.skill-progress-frontend{
+    margin: 0 auto;
+    font-size: 20px;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 .4em #3aa8ed;
+}
+
+.skill-progress-frontend i{
+    position: absolute;
+    clip: rect(0, 2em, 2.8em, 0em);
+    width: 4em;
+    height: 4em;
+}
+
+.skill-progress-frontend i:after {
+    position: absolute;
+    clip: rect(0, 2em, 2.8em, 0em);
+    width: 4em;
+    height: 4em;
+    content: '';
+    animation: spinner-circle 1s ease-in-out infinite;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 .4em #CCC;
+}
+
+.skill-progress-java{
+    margin: 0 auto;
+    font-size: 20px;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 .4em #CCC;
+}
+
+.skill-progress-java i{
+    position: absolute;
+    clip: rect(0, 4em, 4em, 2em);
+    width: 4em;
+    height: 4em;
+}
+
+.skill-progress-java i:after {
+    position: absolute;
+    clip: rect(0, 4em, 4em, 2em);
+    width: 4em;
+    height: 4em;
+    content: '';
+    animation: spinner-circle 1s ease-in-out infinite;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 .4em #3aa8ed;
+}
+
+.skill-progress-python{
+    margin: 0 auto;
+    font-size: 20px;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 .4em #CCC;
+}
+
+.skill-progress-python i{
+    position: absolute;
+    clip: rect(0, 4em, 2em, 2em);
+    width: 4em;
+    height: 4em;
+}
+
+.skill-progress-python i:after {
+    position: absolute;
+    clip: rect(0, 4em, 2em, 2em);
+    width: 4em;
+    height: 4em;
+    content: '';
+    animation: spinner-circle 1s ease-in-out infinite;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 .4em #3aa8ed;
+}
+
+.skill-description{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/*hobbies*/
+.hobby{
+    text-align: center;
+    font-size: 16px;
+}
+.hobby h3{
+    padding-top: 10px;
+}
+.hobby .container{
+    padding: 50px 0;
+}
+.hobby span{
+    font-size: 30px;
+    color:#000;
+}
+
+.hobby .hobby-icon-line{
+    width: 35px;
+    height: 3px;
+    background-color: #000;
+    margin: 3px auto;
+}
+.education{
+    background-color: #FFF;
+}
+.education h3{
+    padding-top: 10px;
+    text-align: center;
+}
+.eduction-content{
+    font-size: 100px;
+    margin: 0 auto;
+    text-align: center;
+    color: #3498db;
+}
+.eduction-aside{
+    padding: 50px;
+    text-align: right;
+}
+
+.extraLink{
+    text-align: center;
+    font-size:30px;
+    background-color: #FFF;
+}
+.extraLink .container{
+    padding: 50px 0;
+}
+.extraLink h3{
+    padding: 10px;
+}
+.extraLink a{
+    outline-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.extraLink-icon{
+    background-color: #3498db;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+    line-height: 70px;
+}
+.extraLink-icon a{
+    color:#FFF;
+}
+/*.footer{*/
+    /*height: 30px;*/
+    /*background-color: #0f0f0f;*/
+    /*bottom: 0;*/
+/*}*/
